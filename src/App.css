@@ -1,0 +1,304 @@
+/*** https://coolors.co/palette/000000-66666e-9999a1-e6e6e9-f4f4f6 ***/
+
+/*** Estilos generales ***/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: #e6e6e9;
+}
+/****************************************************************************************************************************************/
+
+/*** NavBar ***/
+.logo {
+  height: 75px;
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #000000;
+}
+.menuNav {
+  color: #f4f4f6;
+  text-decoration: none;
+  padding: 5px;
+  background-color: #000000;
+  text-decoration: none;
+  border-style: none;
+}
+
+.menuNav:hover {
+  color: #9999a1 !important;
+  background-color: black;
+}
+
+.contCart {
+  position: relative;
+}
+
+.numberCart {
+  position: absolute;
+  top: -20px;
+  right: -13px;
+  background-color: #f4f4f6;
+  color: #000000;
+  border-radius: 50%;
+  padding: 2px 9px;
+}
+
+/****************************************************************************************************************************************/
+
+/*** Carusel Home ***/
+.imgCarusel {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.containerCaruselHome {
+  position: relative;
+}
+
+.textCaruselHome {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  color: #000000;
+  font-size: 3rem;
+}
+
+/****************************************************************************************************************************************/
+/*** Home ***/
+.contenedorImgPagos{
+  display: flex;
+  justify-content: center;
+}
+.imgpagos{
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 300px;
+}
+
+/****************************************************************************************************************************************/
+/*** Item List Container ***/
+.containerListProducts {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+}
+
+.btnAddCart {
+  background-color: #000000;
+  color: #f4f4f6;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  font-weight: 600;
+}
+
+.btnAddCart:hover {
+  background-color: #e6e6e9;
+  color: #000000;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*** Item ***/
+.imgcardProduct {
+  height: 270px;
+  object-fit: cover;
+}
+/****************************************************************************************************************************************/
+/*** ItemDetail ***/
+.imgItemDetail {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+/*** Footer ***/
+
+.footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #000000;
+  color: #f4f4f6;
+}
+
+.titleFooter {
+  font-size: 1.5rem;
+}
+
+.inputEmail {
+  width: 215px;
+}
+.btnUnirse {
+  margin-left: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #e6e6e9;
+  color: #000000;
+}
+
+/****************************************************************************************************************************************/
+/*** Contact ***/
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContactSend {
+  border: 1px solid transparent;
+  width: 100%;
+  background-color: #000000;
+  color: #f4f4f6;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btnContactSend:hover {
+  background-color: #e6e6e9;
+  color: #000000;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/****************************************************************************************************************************************/
+
+/*** About ***/
+
+.imgAbout {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/****************************************************************************************************************************************/
+
+/*** Cart ***/
+.contCartIzquierda{
+  border: solid;
+  border-color: #66666E;
+  border-width: 0.1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.imgCart{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.cartIzquierdaFlex{
+  display: flex;
+  align-items:start;
+  justify-content: space-between;
+}
+
+.contCartDerecha{
+  border: solid;
+  border-color: #66666E;
+  border-width: 0.1px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.cartDerechaFlex{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.textCarritoVacio{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 300px;
+}
+
+
+/****************************************************************************************************************************************/
+
+/*** Checkout ***/
+.container-with-margin {
+  margin-top: 200px;
+}
+
+.imgCheckout {
+  height: 50px;
+}
+
+.checkoutTotalPrice {
+  font-weight: 500;
+  font-size: x-large;
+}
+.gif-img {
+  border-radius: 15px;
+}
+
+.textcheckout{
+  margin-bottom: 260px;
+}
+/****************************************************************************************************************************************/
+
+/*** Media Queries ***/
+
+@media (max-width: 992px) {
+  .imgCarusel {
+    height: 400px;
+  }
+  .textCaruselHome {
+    left: 70px;
+  }
+ .menuContact{
+  margin-bottom: 20px;
+ }
+}
+
+@media (max-width: 768px) {
+  .imgCarusel {
+    height: 340px;
+  }
+  .textCaruselHome {
+    font-size: 2rem;
+    top: 150px;
+  }
+  .containerListProducts {
+    justify-content: center !important;
+  }
+
+  .logo {
+    height: 60px;
+   
+}
+ 
+
+}
+
+@media (max-width: 576px) {
+  .textCaruselHome {
+    left: 30px;
+  }
+  .imgCarusel {
+    height: 300px;
+  }
+}
+
+/****************************************************************************************************************************************/

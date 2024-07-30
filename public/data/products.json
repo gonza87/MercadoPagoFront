@@ -1,0 +1,210 @@
+[
+    {
+        "id": 1,
+        "name": "Budita",
+        "price": 450,
+        "description": "Añade un toque espiritual a tu espacio con la maceta Budita. Su diseño único y detallado en concreto la hace ideal para cualquier tipo de planta, ofreciendo serenidad y estilo a tu hogar.",
+        "image": "/img/buda.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "name": "Carita Nórdica",
+        "price": 500,
+        "description": "Dale a tu hogar un toque escandinavo con la maceta Carita Nórdica. Su diseño minimalista y moderno en concreto es perfecto para resaltar tus plantas favoritas con elegancia y simplicidad.",
+        "image": "/img/caritanordica.png",
+        "featured": false,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 150
+    },
+    {
+        "id": 3,
+        "name": "Cuello Nórdico",
+        "price": 850,
+        "description": "La maceta Cuello Nórdico combina la estética nórdica con la durabilidad del concreto. Ideal para plantas chicas, su diseño elegante aporta un toque sofisticado a cualquier espacio.",
+        "image": "/img/cuellonordico.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 200
+    },
+    {
+        "id": 4,
+        "name": "Cuenco",
+        "price": 600,
+        "description": "Nuestra maceta Cuenco es versátil y funcional. Su diseño amplio y profundo es perfecto para una variedad de plantas, proporcionando un hogar robusto y estilizado para tu vegetación.",
+        "image": "/img/cuenco.jpeg",
+        "featured": false,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 80
+    },
+    {
+        "id": 5,
+        "name": "David",
+        "price": 900,
+        "description": "Inspirada en el arte clásico, la maceta David añade un toque de elegancia y historia a tu jardín o interior. Hecha de concreto duradero, es perfecta para resaltar cualquier planta con sofisticación.",
+        "image": "/img/david.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 120
+    },
+    {
+        "id": 6,
+        "name": "Ecofogón",
+        "price": 990,
+        "description": "Añade funcionalidad y estilo a tus espacios al aire libre con el Ecofogón. Ideal para crear ambientes acogedores, este mechero de concreto es duradero y elegante, perfecto para cualquier ocasión.",
+        "image": "/img/ecofogon.jpeg",
+        "featured": false,
+        "category": {
+            "id": "mecheros",
+            "nombre": "Mecheros"
+        },
+        "stock": 60
+    },
+    {
+        "id": 7,
+        "name": "Esfera",
+        "price": 1400,
+        "description": "La maceta Esfera es una pieza moderna. Su diseño redondeado en concreto es ideal para plantas de interior y exterior, ofreciendo una base sólida y estética para tu jardín.",
+        "image": "/img/esfera.jpg",
+        "featured": false,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 50
+    },
+    {
+        "id": 8,
+        "name": "Gema",
+        "price": 850,
+        "description": "Añade un toque de brillo a tu hogar con la maceta Gema. Su diseño facetado en concreto captura la luz y aporta un estilo único a cualquier planta, siendo un verdadero tesoro decorativo.",
+        "image": "/img/gema.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 130
+    },
+    {
+        "id": 9,
+        "name": "Geométrica",
+        "price": 490,
+        "description": "Nuestra maceta Geométrica es perfecta para aquellos que aman los diseños modernos y limpios. Su estructura en concreto destaca por sus líneas precisas, ofreciendo un hogar estilizado para tus plantas.",
+        "image": "/img/geometrica.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 70
+    },
+    {
+        "id": 10,
+        "name": "Geométrica Sencilla",
+        "price": 390,
+        "description": "La maceta Geométrica Sencilla es ideal para quienes buscan un diseño minimalista y elegante. Hecha de concreto, su forma simple y pura es perfecta para complementar cualquier decoración.",
+        "image": "/img/geometricasencilla.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 90
+    },
+    {
+        "id": 11,
+        "name": "Piña",
+        "price": 490,
+        "description": "Añade un toque tropical a tu espacio con la maceta Piña. Su diseño detallado y texturizado en concreto es perfecto para darle un aire fresco y divertido a tu colección de plantas.",
+        "image": "/img/pina.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 110
+    },
+    {
+        "id": 12,
+        "name": "Set Velas",
+        "price": 890,
+        "description": "Crea un ambiente acogedor con nuestro Set Velas. Estas velas de concreto combinan estilo y funcionalidad, siendo perfectas para decorar cualquier espacio y crear una atmósfera relajante.",
+        "image": "/img/setvelacilindro.jpg",
+        "featured": true,
+        "category": {
+            "id": "velas",
+            "nombre": "Velas"
+        },
+        "stock": 75
+    },
+    {
+        "id": 13,
+        "name": "set Velas",
+        "price": 890,
+        "description": "Crea un ambiente acogedor con nuestro Set Velas. Estas velas de concreto combinan estilo y funcionalidad, siendo perfectas para decorar cualquier espacio y crear una atmósfera relajante.",
+        "image": "/img/setvelas.jpeg",
+        "featured": true,
+        "category": {
+            "id": "velas",
+            "nombre": "Velas"
+        },
+        "stock": 75
+    },
+    {
+        "id": 14,
+        "name": "Silueta Mujer",
+        "price": 930,
+        "description": "Inspírate con la maceta Silueta Mujer. Este diseño artístico en concreto celebra la forma femenina, siendo un complemento ideal para cualquier planta y añadiendo un toque de sofisticación a tu hogar.",
+        "image": "/img/silueta.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 140
+    },
+    {
+        "id": 15,
+        "name": "Busto",
+        "price": 800,
+        "description": "La maceta Busto es una obra de arte en sí misma. Su diseño detallado en concreto es perfecto para resaltar tus plantas, añadiendo un toque clásico y elegante a cualquier espacio.",
+        "image": "/img/busto.jpeg",
+        "featured": true,
+        "category": {
+            "id": "macetas",
+            "nombre": "Macetas"
+        },
+        "stock": 125
+    },
+    {
+        "id": 16,
+        "name": "Ostra",
+        "price": 350,
+        "description": "Añade un toque marino a tu decoración con la vela Ostra. Hecha de concreto, su diseño único y natural es perfecto para crear una atmósfera relajante y chic en cualquier ambiente.",
+        "image": "/img/velaostra.jpg",
+        "featured": true,
+        "category": {
+            "id": "velas",
+            "nombre": "Velas"
+        },
+        "stock": 95
+    }
+]
