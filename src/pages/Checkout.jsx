@@ -26,7 +26,7 @@ function Checkout() {
         unit_price: item.price,
       }));
       const response = await axios.post(
-        "http://localhost:3000/create_preference",
+        "https://mercado-pago-back.vercel.app/create_preference",
         {
           items,
         }
